@@ -40,4 +40,6 @@ Vergelijk elke variable met elkaar. Als het gelijk is, dan tel je bij de huidige
 Print op het einde de index. (Het moet 1 worden ;) ) 
 
 ## Oefening 4: Maak zelf een oefening!
+Vb: maak blad-steen-schaar. Het meeste leer je als je zelf fouten maakt en als je zelf oefeningen opstelt en maakt.
+
 Weet je zelf een oefening? Maak een Pull request of stuur het door via Facebook of sibian@sibiandg.be !
