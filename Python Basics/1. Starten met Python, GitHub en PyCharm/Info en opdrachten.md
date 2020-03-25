@@ -1,4 +1,4 @@
-#Oefeningenreeks 1
+#Starten met Python
 ###Starten met Python, GitHub en PyCharm
 
 ## Python installeren
@@ -17,3 +17,16 @@ Ofwel via `Download ZIP` en open de folder in PyCharm ofwel via `Clone`
 Clonen kan vanuit PyCharm. Open het programma. Klik op `Check out from Version Control` -> `Git` en vul de URL in die je kopieert van GiThub via `Clone with HTTPS`
 
 ## Beginnen met Python en PyCharm
+Als alles goed gedaan is krijg nu nu zo'n een scherm. 
+
+<img src="./Afbeeldingen bij de opdrachten/Welkomscherm_PyCharm_NewFile.png" alt="Welkomscherm_PyCharm_NewFile">
+
+Als je dieper in de folderstructuur gaat, dan kan je in de folder `Oefeningen` een nieuw Python bestand maken. Vb: `Hello World`.
+Typ in het volgende bestand:
+```python
+print("Hello World.")
+print("Dit is voor ComputerClub")
+```
+Rechtklik ergens in het bestand of op het bestand en klik op  `Run 'Hello World'`
+
+<img src="./Afbeeldingen bij de opdrachten/Hello_World.png" alt="Hello World">
