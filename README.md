@@ -1,7 +1,14 @@
 # Python_PyGame_ComputerClub
 Python en PyGame leren met Computerclub
 
-### Wat is deze cursus?
+# Inhoudstabel
+
+| Titel | Onderwerp |
+| ----- | ---- |
+| [01 - Starten met Python, GitHub en PyCharm](Info_en_opdrachten.md) | Alles installeren om te kunnen beginnen + 1e scriptje |
+| [02 - Getting Started](./README.md) | Getting Started |
+
+## Wat is deze cursus?
 Ikzelf, SibianDG, kan de basics van Python.
 Ik wil ze vaardigheden wel overbrengen naar andere mensen.
 Om mijn Python-vaardigheden te herhalen en nieuwe dingen leren, zal ik zelf ondertussen leren werken met PyGame.
