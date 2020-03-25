@@ -1,5 +1,5 @@
-#Starten met Python
-###Starten met Python, GitHub en PyCharm
+# Starten met Python
+### Starten met Python, GitHub en PyCharm
 
 ## Python installeren
 Download de laatste versie op https://www.python.org/downloads/
