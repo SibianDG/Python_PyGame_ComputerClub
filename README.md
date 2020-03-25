@@ -9,6 +9,7 @@ Python en PyGame leren met Computerclub
 | [02 - Getting Started](./Python_Basics/2__Getting_Started/Info_en_opdrachten.md) | print & basis bewerkingen |
 | [03 - What if, What Else?](./Python_Basics/3__What_if_What_Else/Info_en_opdrachten.md) | if, elif & else |
 | [04 - While. For What?](./Python_Basics/4__While_For_What/Info_en_opdrachten.md) |For & while lussen |
+| [05 - While. For What?](./Python_Basics/5__Strings_in_Detail/Info_en_opdrachten.md) | Strings |
 
 ## Wat is deze cursus?
 Ikzelf, SibianDG, kan de basics van Python.
