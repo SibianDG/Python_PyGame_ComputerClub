@@ -8,7 +8,7 @@ Python en PyGame leren met Computerclub
 | [01 - Starten met Python, GitHub en PyCharm](Python_Basics/1__Starten/Info_en_opdrachten.md) | Alles installeren om te kunnen beginnen + 1e scriptje |
 | [02 - Getting Started](./Python_Basics/2__Getting_Started/Info_en_opdrachten.md) | print & basis bewerkingen |
 | [03 - What if, What Else?](./Python_Basics/3__What_if_What_Else/Info_en_opdrachten.md) | if, elif & else |
-| [04 - While. For What?](./Python_Basics/4__While_For_What/Info_en_opdrachten.md) |For & while lussen - TODO |
+| [04 - While. For What?](./Python_Basics/4__While_For_What/Info_en_opdrachten.md) |For & while lussen |
 
 ## Wat is deze cursus?
 Ikzelf, SibianDG, kan de basics van Python.
