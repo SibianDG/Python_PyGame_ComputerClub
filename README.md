@@ -5,7 +5,7 @@ Python en PyGame leren met Computerclub
 
 | Titel | Onderwerp |
 | ----- | ---- |
-| [01 - Starten met Python, GitHub en PyCharm](./1__Starten met Python_GitHub__PyCharm/Info_en_opdrachten.md) | Alles installeren om te kunnen beginnen + 1e scriptje |
+| [01 - Starten met Python, GitHub en PyCharm](1__Starten met Python_GitHub__PyCharm/Info_en_opdrachten.md) | Alles installeren om te kunnen beginnen + 1e scriptje |
 | [02 - Getting Started](./README.md) | Getting Started |
 
 ## Wat is deze cursus?
