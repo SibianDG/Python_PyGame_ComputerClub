@@ -30,3 +30,8 @@ print("Dit is voor ComputerClub")
 Rechtklik ergens in het bestand of op het bestand en klik op  `Run 'Hello World'`
 
 <img src="./Afbeeldingen bij de opdrachten/Hello_World.png" alt="Hello World">
+
+Nu heb je je eerste Python script geschreven! :D 
+
+####  Kleine opmerking:
+*Python heeft regels en standaarden hoe je een script maakt en hoe het eruit ziet. Een van die regels is dat je na een script, klasse of functie altijd twee lege regels laat. Dit gewoon ter zijde.*
