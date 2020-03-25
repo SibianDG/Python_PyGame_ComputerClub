@@ -7,3 +7,5 @@ print("Naar welke podcast luister je?")
 podcast = input()
 print(f"Dag {naam}, jij luistert dus vaak naar {podcast}. Dat is leuk.")
 print("Van die podcast "+ podcast + "heb ik nog niet gehoord.")
+print('Fijn je ontmoet te hebben,', naam)
+
