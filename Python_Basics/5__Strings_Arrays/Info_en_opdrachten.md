@@ -9,6 +9,7 @@ Een array is een lijst. In die lijst kan je alles bijhouden, in steken verwijder
 | index | inhoud | index | inhoud | ... | ... | index | inhoud |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | 0 | "Hallo" | 1 | 123 | ... | ... | n-1 OF lengte-1 | "test" |
+
 In Python werkt dit zo:
 ```python
 #declaratie
