@@ -26,6 +26,6 @@ Zie je fouten in de cursus of wil je mee helpen bouwen? Fork het project naar je
 Ik gebruik PyCharm Professional. Als je student bent krijg je alle software gratis van JetBrains.
 Als je geen student bent kan je gebruik maken van PyCharm Community Edition.
 
-*De installatie wordt in het eerste stuk besproken.*
+*De installatie wordt in het eerste hoofdstuk besproken.*
 
 Download link voor beiden: https://www.jetbrains.com/pycharm/
