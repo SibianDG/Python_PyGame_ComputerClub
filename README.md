@@ -10,6 +10,7 @@ Python en PyGame leren met Computerclub
 | [03 - What if, What Else?](./Python_Basics/3__What_if_What_Else/Info_en_opdrachten.md) | if, elif & else |
 | [04 - While. For What?](./Python_Basics/4__While_For_What/Info_en_opdrachten.md) |For & while lussen |
 | [05 - Strings 'n Arrays](./Python_Basics/5__Strings_Arrays/Info_en_opdrachten.md) | Strings & arrays |
+| [06 - Functies, functies en functies](./Python_Basics/6__Functies_Functies_Functies/Info_en_opdrachten.md) | Functies en testen |
 
 ## Wat is deze cursus?
 Ikzelf, SibianDG, kan de basics van Python.
