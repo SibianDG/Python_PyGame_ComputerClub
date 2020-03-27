@@ -12,6 +12,8 @@ Python en PyGame leren met Computerclub
 | [05 - Strings 'n Arrays](./Python_Basics/5__Strings_Arrays/Info_en_opdrachten.md) | Strings & arrays |
 | [06 - Functies, functies en functies](./Python_Basics/6__Functies_Functies_Functies/Info_en_opdrachten.md) | Functies en testen |
 
+De oplossingen zijn altijd te vinden in de map van de oefeningenreeks en dan "Oplossingen". Je leert het meeste als je zelf eerst vanalles probeert! En ja, dat kan soms lang(er) duren, maar het is het waard! 
+
 ## Wat is deze cursus?
 Ikzelf, SibianDG, kan de basics van Python.
 Ik wil deze vaardigheden overbrengen naar andere mensen.

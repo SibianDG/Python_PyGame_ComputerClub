@@ -30,7 +30,7 @@ zegEensHalloMetNaam(naam, 5)
 ```
 
 ## Oefening 1 - Scrabble
-Begin met de volgende code. Alles tussen """ zijn de testen. Dit is handig om te controleren of je juist bent zonder naar de oplossing te kijken. Je moet dan ook vanonder dat hebben zoals in de code hieronder. Die __ __main__ __ voert de testen uit. Als je het programma wilt uitvoeren zonder testen, laat dan de laatste 3 lijnen weg en roep de functie aan.
+Begin met de volgende code. Alles tussen """ zijn de testen. Dit is handig om te controleren of je juist bent zonder naar de oplossing te kijken. Je moet dan ook vanonder dat hebben zoals in de code hieronder. Die __ __main__ __ voert de testen uit. Als je het programma wilt uitvoeren zonder testen, laat dan de laatste 3 lijnen weg en roep de functie aan. *Als de testen niet werken dan kan je altijd de laatste 3 lijnen verwijderen en zelf testen invoeren enventueel m.b.v. de testen in de opgaves.*
 ```python
 import imp
 
@@ -134,3 +134,33 @@ if __name__ == '__main__':
     doctest.testmod()
 ```
 
+## Oefening 4 - OXO
+Het maken van games heeft vaak 2 fasen.
+1. Het domein maken, of beter gezegd de achterliggende code zoals we al 6 reeksen doen.
+2. De lay-out maken en de code verbinden met de lay-out.
+
+*Opmerking: je kan ze ook combineren.*
+
+#### Extra info: 2 dimensionale arrays.
+Een speelveld is vaak een x-y rooster. Bij OXO is dat dan 3x3. Dat kan je makkelijk voorstellen in een 2 dimensionale array. Je hebt 3 rijen en 3 kolommen.
+```python
+array = ["x", "o", "x"] # is 1 rij.
+array2 = [["x", "o", "x"], ["x", "x", "x"], ["x", "o", "x"]] #is een 2 dimensionale array.
+# ik wil teken in het midden. rijen 0 - 1 - 2 => 1; kolommen 0 - 1 - 2 => 1
+print(array2[1][1]) # dat element uitprinten.
+# spelbord uitprinten:
+for rij in array2:
+    # rij is een array: ["x", "o", "x"]
+    for kolom in rij:
+        print(kolom, end='')
+    print("\n") #print new line
+# x o x
+# x x x
+# x o x
+``` 
+#### opdracht: Maak TicTacToe
+Maak TicTacToe met een speelveld van 3x3. De eerste die OXO vormt is gewonnen.
+Voor degene die eens alles zelf willen proberen. Ga je gang! *Gebruik wel functies, want we zitten in dit hoofdstuk ;)*
+
+Voor degene die nog een beetje twijfelen. Kijk in de map "Oefeningen", daar heb ik al een start gezet.
+Veel succes!
