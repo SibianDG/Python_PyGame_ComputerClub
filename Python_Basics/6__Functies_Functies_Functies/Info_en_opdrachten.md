@@ -161,6 +161,7 @@ for rij in array2:
 #### opdracht: Maak TicTacToe
 Maak TicTacToe met een speelveld van 3x3. De eerste die OXO vormt is gewonnen.
 Voor degene die eens alles zelf willen proberen. Ga je gang! *Gebruik wel functies, want we zitten in dit hoofdstuk ;)*
+*Toch kleine tip: `break` zorgt ervoor dat je huidige loop stopt. Dat is misschien makkelijker.*
 
 Voor degene die nog een beetje twijfelen. Kijk in de map "Oefeningen", daar heb ik al een start gezet.
 Veel succes!
