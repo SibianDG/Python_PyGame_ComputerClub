@@ -143,9 +143,5 @@ def isSpelKlaar(speelveld):
     return 0
 
 
-def startSpel():
-    win = buildGUI()
-    speelSpelGUI(win)
+speelSpelGUI(buildGUI())
 
-
-startSpel()

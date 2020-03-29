@@ -112,9 +112,5 @@ def isSpelKlaar(speelveld):
     return False
 
 
-def startSpel():
-    win = buildGUI()
-    speelSpelGUI(win)
+speelSpelGUI(buildGUI())
 
-
-startSpel()
