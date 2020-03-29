@@ -1,10 +1,12 @@
 print("Wat is je naam?")
 # een "#" voor de regels zorg ervoor dat deze lijn niet uitgevoerd wordt en is dus commentaar.
 # voer je naam in in de console
+
 naam = input()
 print("Naar welke podcast luister je?")
+
 # voer de podcast in
-podcast = input()
+podcast = input()  # input vraagt de gebruiker via de console naar een input.
 
 # Manier 1 om tekst te printen
 print(f"Dag {naam}, jij luistert dus vaak naar {podcast}. Dat is leuk.")  # De f staat voor format. Je kan gewoon
