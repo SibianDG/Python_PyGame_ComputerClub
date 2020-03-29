@@ -1,7 +1,7 @@
 # Python_PyGame_ComputerClub
 Python en PyGame leren met Computerclub
 
-# Inhoudstabel
+# Inhoudstabel Python
 
 | Titel | Onderwerp |
 | ----- | ---- |
@@ -11,6 +11,12 @@ Python en PyGame leren met Computerclub
 | [04 - While. For What?](./Python_Basics/4__While_For_What/Info_en_opdrachten.md) |For & while lussen |
 | [05 - Strings 'n Arrays](./Python_Basics/5__Strings_Arrays/Info_en_opdrachten.md) | Strings & arrays |
 | [06 - Functies, functies en functies](./Python_Basics/6__Functies_Functies_Functies/Info_en_opdrachten.md) | Functies en testen |
+
+# Inhoudstabel PyGame
+
+| Titel | Onderwerp |
+| ----- | ---- |
+| [TicTacToe - GUI](PyGame_Coming Soon!/TicTacToe_PyGame/2__Getting_started/Oplossingen/GUI_TTT.py) | TicTacToe met GUI zonder uitleg voorlopig. TODO |
 
 De oplossingen zijn altijd te vinden in de map van de oefeningenreeks en dan "Oplossingen". Je leert het meeste als je zelf eerst vanalles probeert! En ja, dat kan soms lang(er) duren, maar het is het waard! 
 
