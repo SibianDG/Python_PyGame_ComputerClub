@@ -1,12 +1,6 @@
 def startSpel():
     speelveld = []
-    # speelveld = [[" , " ", " "], [" ", " ", " "], [" ", " ", " "]]
-    # dit lijkt veel werk, maar vul eens een 100x100 spelbord in, of een 500x300 met telkens verschillende tekens. Gewoon aanmaken zoals voorbeeld is ook oké!
-    for _ in range(3):
-        speelveld.append([])
-    for rij in speelveld:
-        for _ in range(3):
-            rij.append(" ")
+    speelveld = [[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]]
     huidigeSpeler = "O"
     spelerIndex = 0
     while isSpelNietKlaar(speelveld, huidigeSpeler):
@@ -22,11 +16,11 @@ def startSpel():
 def plaatsSymbool(symbool, spelerIndex, speelveld):
     herhalen = True
     while herhalen:
-        print(f"Speler {spelerIndex + 1} is aan beurt. Waar wilt u uw zet plaatsen? [rij kolom]")  # rij spatie kolom
+        print(f"Speler {spelerIndex + 1} is aan beurt. Waar wilt u uw zet plaatsen? [rij kolom]")
         zet = input()
         rij = int(zet[0])
         kolom = int(zet[2])
-        if 0 <= rij < 3 and 0 <= kolom < 3:  # of int(zet[0]) >= 0 and int(zet[0]) < 3 and ...
+        if 0 <= rij < 3 and 0 <= kolom < 3:
             if speelveld[rij][kolom] == " ":
                 speelveld[rij][kolom] = symbool
                 herhalen = False
@@ -41,7 +35,7 @@ def printSpelbord(spelbord):
     for rij in spelbord:
         for kolom in rij:
             print(kolom, end=' ')
-        print()  # print new line
+        print()
 
 def bepaalVolgendeSymbool(symbool):
     if symbool == "O":
@@ -58,11 +52,12 @@ def isSpelNietKlaar(speelveld, netGespeeldSymbool):
     # horizontaal
     for rij in speelveld:
         if rij[0] == "O" and rij[1] == "X" and rij[2] == "O":
-            return False  # not True om de while te laten doorlopen
+            return False
 
     # verticaal
     for x in range(3):
-        if speelveld[0][x] == "O" and speelveld[1][x] == "X" and speelveld[2][x] == "O":
+        rij = speelveld[x]
+        if rij[0] == "O" and rij[1] == "X" and rij[2] == "O":
             return False
 
     # hoofdDiagonaal
@@ -71,8 +66,6 @@ def isSpelNietKlaar(speelveld, netGespeeldSymbool):
     # nevenDiagonaal
     if speelveld[0][2] == "O" and speelveld[1][1] == "X" and speelveld[2][0] == "O":
         return False
-
-    # er is nog geen gelijk stand gecontroleerd.
 
     return True
 
