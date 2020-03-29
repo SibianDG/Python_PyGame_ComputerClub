@@ -16,7 +16,7 @@ Python en PyGame leren met Computerclub
 
 | Titel | Onderwerp |
 | ----- | ---- |
-| [TicTacToe - GUI](PyGame_Coming Soon!/TicTacToe_PyGame/2__Getting_started/Oplossingen/GUI_TTT.py) | TicTacToe met GUI zonder uitleg voorlopig. TODO |
+| [TicTacToe - GUI](PyGame/TicTacToe_PyGame/2__Getting_started/Oplossingen/GUI_TTT.py) | TicTacToe met GUI zonder uitleg voorlopig. TODO |
 
 De oplossingen zijn altijd te vinden in de map van de oefeningenreeks en dan "Oplossingen". Je leert het meeste als je zelf eerst vanalles probeert! En ja, dat kan soms lang(er) duren, maar het is het waard! 
 
