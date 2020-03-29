@@ -124,7 +124,6 @@ def isSpelKlaar(speelveld):
     for x in range(3):
         if speelveld[0][x] == "O" and speelveld[1][x] == "X" and speelveld[2][x] == "O":
             return 1
-
     # hoofdDiagonaal
     if speelveld[0][0] == "O" and speelveld[1][1] == "X" and speelveld[2][2] == "O":
         return 1
@@ -132,6 +131,7 @@ def isSpelKlaar(speelveld):
     if speelveld[0][2] == "O" and speelveld[1][1] == "X" and speelveld[2][0] == "O":
         return 1
 
+    #gelijk stand
     gelijk = True
     for rij in speelveld:
         for kol in rij:

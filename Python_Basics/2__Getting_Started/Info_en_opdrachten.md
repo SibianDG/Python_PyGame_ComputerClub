@@ -21,6 +21,7 @@ naam = input()
 print("Naar welke podcast luister je?")
 # voer de podcast in
 podcast = input()
+
 print(f"Dag {naam}, jij luistert dus vaak naar {podcast}. Dat is leuk.")
 print("Van die podcast "+ podcast + "heb ik nog niet gehoord.")
 print('Fijn je ontmoet te hebben,', naam)
