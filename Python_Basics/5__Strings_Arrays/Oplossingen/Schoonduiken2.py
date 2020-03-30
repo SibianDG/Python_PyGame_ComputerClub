@@ -6,16 +6,16 @@ for jurylid in range(aantalJuryLeden):
 #sorteer de lijst
 punten.sort()
 
-#de laagste score
-minP = punten[0]
-#verwijderen (maar 1x wordt de laagste score verwijderd)
-punten.remove(minP)
-# -1 voor het gemiddelde
-aantalJuryLeden -= 1
+#de laagste score verwijderen
+punten.remove(punten[0])
 
-maxP = punten[len(punten)-1]
-punten.remove(maxP)
-aantalJuryLeden -= 1
+# hoogste score verwijderen andere manier
+del punten[len(punten)-1]
+# korter:
+# del punten[-1] # -1 geeft de laatste index
+
+# aantal juryleden verminderen met 2.
+aantalJuryLeden -= 2
 
 som = 0
 for punt in punten:
