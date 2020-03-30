@@ -58,15 +58,6 @@ while run:
 pygame.quit()
 ``` 
 
-### Hoe is een scherm opgebouwd?
-Zoals een tweedimensionale array:
-
-| x,y | x,y | x,y | x,y |
-| ----- | ---- | ---- | ---- |
-| 0,0 | 1,0 | 2,0 | ... |
-| 0,1 | 1,1 | 2,1 | ... |
-| 0,2 | 1,2 | 2,2 | ... |
-
 ##### Richtingen
 - links: x - 1
 - rechts: x + 1
