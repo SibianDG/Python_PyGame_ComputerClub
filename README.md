@@ -16,7 +16,7 @@ Python en PyGame leren met Computerclub
 
 | Titel | Onderwerp |
 | ----- | ---- |
-| [Blad Staan Schaar](./PyGame/BladSteenSchaar/info.md) | Blad Steen Schaar. Stap per stap. |
+| [Blad Steen Schaar](./PyGame/BladSteenSchaar/info.md) | Blad Steen Schaar. Stap per stap. |
 | [TicTacToe - GUI Makkelijker](PyGame/TicTacToe_PyGame/3__StapVoorStap/Oplossingen/GUI_TTT.py) | TicTacToe met GUI met uitleg in de code. TODO stap per stap|
 | [TicTacToe - GUI Moeilijk](PyGame/TicTacToe_PyGame/3__StapVoorStap/Oplossingen/GUI_TTT_Moeilijk.py) | TicTacToe GUI, moeilijker door tekst|
 
