@@ -5,7 +5,7 @@ lengte = int(input())
 
 #bmi berekenen
 bmi = (gewicht)/(lengte/100)**2
-interpretatie = ''
+
 
 #berekenen
 if bmi < 18:

@@ -1,3 +1,7 @@
-array = [3, 5, 7]
-del array[-1]
-print(array[0], array[1])
+x = 9
+if x > 10:
+   a = "groter"
+elif x == 10:
+    a = "gelijk"
+
+print(a) # niet gekend.

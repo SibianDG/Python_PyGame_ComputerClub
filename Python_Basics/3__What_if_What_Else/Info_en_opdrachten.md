@@ -16,8 +16,7 @@ Vraag je lengte en gewicht. Bereken het BMI en geef een gepaste boodschap.
 
 < 18 = ondergewicht; 18 - 25 = normaal gewicht; 25 - 27 = licht overgewicht; 27 - 30 = matig overgewicht; 30 - 40 = ernstig overgewicht; > 40 = ziekelijk overgewicht.
 
-- *TIP1: formule BMI = gewicht delen door je lengte in meter in het kwadraat*
-- *TIP2: werk met een variable `interpretatie = ''`. ALS het die waarde in, dan vul je die in, anders ...*
+- *TIP: formule BMI = gewicht delen door je lengte in __meter__ in het kwadraat*
 
 ## Oefening 2 - ISBN controleren
 ISBN. Dat zijn de cijfers aan de barcode van een boek (voor 1990 ongeveer. Meer info: Wikipedia).
