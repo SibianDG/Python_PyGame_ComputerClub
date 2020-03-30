@@ -28,6 +28,7 @@ print('Fijn je ontmoet te hebben,', naam)
 ```
 Je kan ook altijd een nieuwe file maken en het eens uitvoeren.
 
+
 ### Opdracht
 Maak nu zelf een script waarbij je vraagt wie je bent en wanneer je jarig bent. Maak daarna een gepast zin met deze twee variabelen.
 
@@ -37,3 +38,5 @@ Probeer een scriptje te maken waarbij je vraagt in welk jaar we zitten en hoe ou
 - *TIP1: als je gewoon min gebruikt zal het niet werken.*
 
 - *TIP2: Als je via `input()` iets vraagt, dan is dat standaard een String of tekst. We moeten aan Python zeggen dat het een getal is. Getal in het Engels is Integer. Dus => `int( input() )`.*
+
+Standaard is het 'type' van `input()` een String of tekst. Je kan er dus gehele getallen van maken via `int()`. Kommagetallen in Python zijn floats. Dus omzetten naar een kommagetal is via `float()`
