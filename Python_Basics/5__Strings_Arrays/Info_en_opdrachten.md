@@ -61,3 +61,25 @@ Een beetje zoeken kan geen kwaad.
 
 ## Oefening 4 - Yhql Ylgl Ylfl
 Ik ben een generaal en ik wil de code ontcijferen van Julius Caesar. De key is 3 en de zin is "Yhql Ylgl Ylfl". Wat was de originele zin?
+
+## Oefening 5 - Schoonspringen v2
+In een wedstrijd schoonduiken wordt na elke sprong een score toegekend door verschillende juryleden. De finale score van de deelnemer wordt dan bepaald door de hoogste en de laagste score te negeren en het gemiddelde te nemen van de andere scores. Dit gemiddelde wordt tenslotte afgerond naar het dichtstbijzijnde natuurlijke getal.
+Opmerking: Als er meerdere juryleden zijn die de laagste score gegeven hebben, dan moet de laagste score maar van één jurylid genegeerd worden. Idem voor de hoogste score.
+##### Invoer
+De eerste regel bevat een getal n∈N
+(n≥3) dat aangeeft hoeveel juryleden er zijn. Daarna volgen n regels, met op elke regel de score s∈N toegekend door een jurylid.
+##### Uitvoer
+Eén enkele regel met daarop de finale score van de deelnemer.
+##### Voorbeeld
+###### invoer 
+```python
+4
+100
+0
+55
+56
+```
+###### uitvoer
+```python
+56
+```

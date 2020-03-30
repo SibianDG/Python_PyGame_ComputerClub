@@ -35,10 +35,8 @@ Ik wil de som hebben van alle getallen die ik ga invoeren totdat het woord "stop
 
 *TIP: een string vergelijken met andere kan met `string1 == string2` of `string1 != string2`. `!` betekent: NIET.*
 
-## Oefening 4 - Schoonduiken
-In een wedstrijd schoonduiken wordt na elke sprong een score toegekend door verschillende juryleden. De finale score van de deelnemer wordt dan bepaald door de hoogste en de laagste score te negeren en het gemiddelde te nemen van de andere scores. Dit gemiddelde wordt tenslotte afgerond naar het dichtstbijzijnde natuurlijke getal.
-Opmerking: Als er meerdere juryleden zijn die de laagste score gegeven hebben, dan moet de laagste score maar van één jurylid genegeerd worden. Idem voor de hoogste score.
-
+## Oefening 4 - Schoonduiken v1
+Wedstrijd schoonduiken. Bepaal de gemiddelde score voor de duikers.
 ##### Invoer
 De eerste regel bevat een getal n∈N
 (n≥3) dat aangeeft hoeveel juryleden er zijn. Daarna volgen n regels, met op elke regel de score s∈N toegekend door een jurylid.
@@ -46,10 +44,14 @@ De eerste regel bevat een getal n∈N
 Eén enkele regel met daarop de finale score van de deelnemer.
 ##### Voorbeeld
 ###### invoer 
+```python
 4
 100
 0
 55
 56
+```
 ###### uitvoer
-53
+```python
+56
+```

@@ -5,4 +5,3 @@ for jurylid in range(aantalJuryLeden):
     if punten >= 0:
         gemiddelde += punten
 print(round(gemiddelde/aantalJuryLeden))
-
