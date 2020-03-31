@@ -27,13 +27,20 @@ Vraag een woord op. Laat dat woord even veel uitschrijven als het woord lang is.
 
 *TIP: de lengte van een String kan je weten door `len(string1)`.*
 
+Een oplossing vind je [hier](./Oplossingen/ICanHearYourEchooooooo.py)
+
+
 ## Oefeing 2 - Lower Lower Lower
 Begin met `number = 5`. Zorg ervoor dat je het nummer blijft vragen tot wanneer het getal kleiner dan 0 is.
+
+Een oplossing vind je [hier](./Oplossingen/LowerLowerLower.py)
 
 ## Oefening 3 - Stop it now!
 Ik wil de som hebben van alle getallen die ik ga invoeren totdat het woord "stop" is ingevoerd. Vb: 2 3 stop => 6
 
-*TIP: een string vergelijken met andere kan met `string1 == string2` of `string1 != string2`. `!` betekent: NIET.*
+*TIP: een string vergelijken met andere kan met `string1 == string2` of `string1 != string2`. `!` betekent: NIET. Je kan ook het woord `not` gebruiken. `not a == b`*
+
+Een oplossing vind je [hier](./Oplossingen/StopItNow.py)
 
 ## Oefening 4 - Schoonduiken v1
 Wedstrijd schoonduiken. Bepaal de gemiddelde score voor de duikers.
@@ -53,5 +60,7 @@ Eén enkele regel met daarop de finale score van de deelnemer.
 ```
 ###### uitvoer
 ```python
-56
+53
 ```
+
+Een oplossing vind je [hier](./Oplossingen/Schoonduiken.py)

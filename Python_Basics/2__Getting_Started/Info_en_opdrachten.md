@@ -11,6 +11,8 @@ Het bovenstaande is verboden.
 - *TIP1: het zit in de titel*
 - *TIP2: tekst in het algemeen wordt gezien als Strings in programmeertalen. Als je wil zeggen dat je een String/tekst wil printen (of opslaan of andere), gebruik dan dubble aanhalingstekens. Vb: "Hoi" == 'Hoi' (in Python is er geen verschil).*
 
+Een oplossing vind je [hier](./Oplossingen/Computer+Club=ComputerClub.py)
+
 ## Oefening 2 - De vragenronde
 Stukje code. Raad eens wat het doet:
 ```python
@@ -27,7 +29,7 @@ print("Van die podcast "+ podcast + "heb ik nog niet gehoord.")
 print('Fijn je ontmoet te hebben,', naam)
 ```
 Je kan ook altijd een nieuwe file maken en het eens uitvoeren.
-
+Een oplossing vind je [hier](./Oplossingen/DeVragenronde.py)
 
 ### Opdracht
 Maak nu zelf een script waarbij je vraagt wie je bent en wanneer je jarig bent. Maak daarna een gepast zin met deze twee variabelen.
@@ -40,3 +42,5 @@ Probeer een scriptje te maken waarbij je vraagt in welk jaar we zitten en hoe ou
 - *TIP2: Als je via `input()` iets vraagt, dan is dat standaard een String of tekst. We moeten aan Python zeggen dat het een getal is. Getal in het Engels is Integer. Dus => `int( input() )`.*
 
 Standaard is het 'type' van `input()` een String of tekst. Je kan er dus gehele getallen van maken via `int()`. Kommagetallen in Python zijn floats. Dus omzetten naar een kommagetal is via `float()`
+
+Een oplossing vind je [hier](./Oplossingen/Hoe oud ben ik nu weer.py)

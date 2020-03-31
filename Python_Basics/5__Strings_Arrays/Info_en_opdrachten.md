@@ -3,6 +3,8 @@
 Maak een for-lus die over elke letter gaat van een woord. Geef het aantal '[letter die gevraagd is]' terug van het woord. Vb: `a` `Abba` print `2`.
 - *TIP: een for lus kan ook zo gebruik worden: `for letter in woord:` en doe dan iets met letter.
 
+Een oplossing vind je [hier](./Oplossingen/ZegEensAaaaaOfBOfC.py)
+
 ## Arrays
 Een array is een lijst. In die lijst kan je alles bijhouden, in steken verwijderen etc. Visuele voorstelling array:
 
@@ -49,6 +51,8 @@ Maak een scriptje waarbij je getallen vraagt, die in een array steekt tot wannee
 `0 : 10, 1 : 5, 2 : 3,  3 : 2,  4 : 1`
 *TIP: probeer op het einde geen komma te printen ;)*
 
+Een oplossing vind je [hier](./Oplossingen/VoegMaarToe.py)
+
 ## Oefening 3 - Veni Vidi Vici
 Julius Caesar encrypteerde zijn brieven naar zijn leger om zo te voorkomen dat mocht het onderschept worden, dat niemand het zou kunnen lezen zonder de juist "key".
 Maak een encryteer script dat alle letters met vervangt door key-aantal letters erna. Rekening houdend dat het een circulair alfabet is en na de Z komt weer de A.
@@ -59,8 +63,12 @@ Maak een encryteer script dat alle letters met vervangt door key-aantal letters 
 
 Een beetje zoeken kan geen kwaad. 
 
+Een oplossing vind je [hier](./Oplossingen/VeniVidiVici.py)
+
 ## Oefening 4 - Yhql Ylgl Ylfl
 Ik ben een generaal en ik wil de code ontcijferen van Julius Caesar. De key is 3 en de zin is "Yhql Ylgl Ylfl". Wat was de originele zin?
+
+Een oplossing vind je [hier](./Oplossingen/YhqlYlglYlfl.py)
 
 ## Oefening 5 - Schoonspringen v2
 In een wedstrijd schoonduiken wordt na elke sprong een score toegekend door verschillende juryleden. De finale score van de deelnemer wordt dan bepaald door de hoogste en de laagste score te negeren en het gemiddelde te nemen van de andere scores. Dit gemiddelde wordt tenslotte afgerond naar het dichtstbijzijnde natuurlijke getal.
@@ -83,3 +91,5 @@ Eén enkele regel met daarop de finale score van de deelnemer.
 ```python
 56
 ```
+
+Een oplossing vind je [hier](./Oplossingen/Schoonduiken2.py)

@@ -60,6 +60,8 @@ if __name__ == '__main__':
 
 ```
 
+Een oplossing vind je [hier](./Oplossingen/Scrabble.py)
+
 ## Oefening 2 - Maak gebruikersnaam
 Om te kunnen inloggen heb je een gebruikersnaam en een wachtwoord nodig. Een gebruikersnaam bestaat enkel uit kleine letters, en wordt samengesteld uit de eerste letter van je voornaam en de letters van je familienaam.
 
@@ -93,6 +95,8 @@ if __name__ == '__main__':
     doctest.testmod()
 ```
 
+Een oplossing vind je [hier](./Oplossingen/MaakGebruikersnaam.py)
+
 ## Oefening 3 - Nokia, where are you at?
 <img src="./nokia.jpg" alt="Nokia phone">
 Maak een script dat 1. Vraagt welke woord je wil typen. 2. Dat toont op welke cijfers je moet klikken.
@@ -102,8 +106,6 @@ Vb:
 - `output` : `44 666 444`
 
 Begin met het volgende:
-
-__TODO testen__
 
 ```python
 import imp
@@ -134,12 +136,14 @@ if __name__ == '__main__':
     doctest.testmod()
 ```
 
+Een oplossing vind je [hier](./Oplossingen/Nokia.py)
+
 ## Oefening 4 - OXO
 Het maken van games heeft vaak 2 fasen.
 1. Het domein maken, of beter gezegd de achterliggende code zoals we al 6 reeksen doen.
 2. De lay-out maken en de code verbinden met de lay-out.
 
-*Opmerking: je kan ze ook combineren.*
+*Opmerking: je kan ze ook combineren. Later dan in PyGame*
 
 #### Extra info: 2 dimensionale arrays.
 Een speelveld is vaak een x-y rooster. Bij OXO is dat dan 3x3. Dat kan je makkelijk voorstellen in een 2 dimensionale array. Je hebt 3 rijen en 3 kolommen.
@@ -158,6 +162,7 @@ for rij in array2:
 # x x x
 # x o x
 ``` 
+
 #### opdracht: Maak TicTacToe - Moeilijk
 Maak TicTacToe met een speelveld van 3x3. De eerste die OXO vormt is gewonnen.
 Voor degene die eens alles zelf willen proberen. Ga je gang! *Gebruik wel functies, want we zitten in dit hoofdstuk ;)*
@@ -165,3 +170,5 @@ Voor degene die eens alles zelf willen proberen. Ga je gang! *Gebruik wel functi
 
 Voor degene die nog een beetje twijfelen. Kijk in de map "Oefeningen", daar heb ik al een start gezet.
 Veel succes!
+
+Een oplossing vind je [hier](./Oplossingen/TicTacToe.py)
