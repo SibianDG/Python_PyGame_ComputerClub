@@ -1,4 +1,4 @@
-# 2. Stap voor Stap - Blad Steen Schaar
+# 3. Stap voor Stap - Blad Steen Schaar
 We beginnnen met de code van puntje 2:
 ```python
 import pygame
