@@ -1,7 +1,20 @@
-x = 9
-if x > 10:
-   a = "groter"
-elif x == 10:
-    a = "gelijk"
+for index in range(ord('a'), ord('z')+1):
+    print(index, end= ' ')
 
-print(a) # niet gekend.
+
+dic = { "a" : 1, "b": 3, "z" : 12}
+if "z" in dic:
+    print("in dict")
+    print(dic["z"])
+
+
+groot = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+klein = "abcdefghijklmnopqrstuvwxyz"
+
+string = "{"
+#for letter in groot:
+#    string += "pygame.K_" + letter + " : \"" + letter + "\", "
+for letter in klein:
+    string += "pygame.K_" + letter + " : \"" + letter + "\", "
+string += "}"
+print(string)
