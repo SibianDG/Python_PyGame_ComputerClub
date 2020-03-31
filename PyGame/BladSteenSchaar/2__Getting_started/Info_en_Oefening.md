@@ -1,6 +1,6 @@
 # 2. Getting Started - Blad Steen Schaar
 
-##Even theorie
+## Even theorie
 #### Kleuren - RGB
 De kleuren in Python zijn in RGB (omdat het op schermen is). RGB staat voor Rood Groen Blauw. (0, 0, 0) betekent geen licht van niets, dus zwart. De maximum waarde is 255, met als gevolg als je (255, 255, 255) hebt, dan heb je alle licht tegelijk en dus wit.
 - [Kleurenpsychologie](https://www.w3schools.com/colors/colors_psychology.asp)
