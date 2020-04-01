@@ -11,7 +11,11 @@ def buildGUI():
 def draw(win, letterArray, woord):
     win.fill((255, 255, 255))  # achtergrond wit
 
-    aantalFout = len(letterArray)
+
+    aantalFout = 0
+    for letter in letterArray:
+        if letter not in woord:
+            aantalFout += 1
     if aantalFout != 0 and aantalFout < 12:
         foto = pygame.image.load(str(aantalFout) + '.png')
         win.blit(foto, (70, 50))
@@ -28,6 +32,9 @@ def draw(win, letterArray, woord):
                         woordTeTonen[index] = letter
 
     woordTeTonen = " ".join(woordTeTonen)
+
+    if "_" not in woordTeTonen:
+        woordTeTonen = "GEWONNEN"
 
     if aantalFout >= 12:
         woordTeTonen = "GAME OVER"
