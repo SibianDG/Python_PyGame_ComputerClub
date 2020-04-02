@@ -16,10 +16,12 @@ Python en PyGame leren met Computerclub
 
 | Titel | Onderwerp |
 | ----- | ---- |
-| [Blad Steen Schaar](./PyGame/BladSteenSchaar/info.md) | Blad Steen Schaar. Stap per stap. |
+| [Blad Steen Schaar](./PyGame/BladSteenSchaar/info.md) | Begin PyGame & Blad Steen Schaar. Stap per stap. |
+| [Galgje](./PyGame/Galgje/Info_en_Oefening.md) | Galgje stap per stap opdrachten gegeven. |
 | [TicTacToe - GUI Makkelijker](PyGame/TicTacToe_PyGame/3__StapVoorStap/Oplossingen/GUI_TTT.py) | TicTacToe met GUI met uitleg in de code. TODO stap per stap|
 | [TicTacToe - GUI Moeilijk](PyGame/TicTacToe_PyGame/3__StapVoorStap/Oplossingen/GUI_TTT_Moeilijk.py) | TicTacToe GUI, moeilijker door tekst|
 
+### Oplossingen
 De oplossingen zijn altijd te vinden in de map van de oefeningenreeks en dan "Oplossingen". Je leert het meeste als je zelf eerst vanalles probeert! En ja, dat kan soms lang(er) duren, maar het is het waard! 
 
 ## Wat is deze cursus?

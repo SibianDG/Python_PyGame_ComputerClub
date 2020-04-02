@@ -11,12 +11,13 @@ def buildGUI():
 def draw(win, letterArray, woord):
     win.fill((255, 255, 255))  # achtergrond wit
 
-
     aantalFout = 0
     for letter in letterArray:
         if letter not in woord:
             aantalFout += 1
     if aantalFout != 0 and aantalFout < 12:
+        if aantalFout > 11:
+            aantalFout = 11
         foto = pygame.image.load(str(aantalFout) + '.png')
         win.blit(foto, (70, 50))
 
@@ -36,7 +37,7 @@ def draw(win, letterArray, woord):
     if "_" not in woordTeTonen:
         woordTeTonen = "GEWONNEN"
 
-    if aantalFout >= 12:
+    if aantalFout >= 11:
         woordTeTonen = "GAME OVER"
 
     fontOnderaan = pygame.font.SysFont("Calibri, Arial", 30)  # font voor van onder. Kleiner
@@ -45,8 +46,8 @@ def draw(win, letterArray, woord):
 
 
 def speelSpel(win):
-    letterArray = []
     woord = "Computerclub"
+    letterArray = []
 
     run = True
     while run:  # pygame basic
