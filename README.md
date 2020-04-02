@@ -23,7 +23,7 @@ Python en PyGame leren met Computerclub
 De oplossingen zijn altijd te vinden in de map van de oefeningenreeks en dan "Oplossingen". Je leert het meeste als je zelf eerst vanalles probeert! En ja, dat kan soms lang(er) duren, maar het is het waard! 
 
 ## Wat is deze cursus?
-Ikzelf, SibianDG, kan de basics van Python.
+Ikzelf, [SibianDG](https://sibiandg.be/), kan de basics van Python.
 Ik wil deze vaardigheden overbrengen naar andere mensen.
 Om mijn Python-vaardigheden te herhalen en nieuwe dingen leren, zal ik zelf ondertussen leren werken met PyGame, dus jullie kunnen hierbij meedoen!
 
