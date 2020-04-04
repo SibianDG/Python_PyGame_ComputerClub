@@ -19,7 +19,10 @@ Python en PyGame leren met Computerclub
 | [Blad Steen Schaar](./PyGame/BladSteenSchaar/info.md) | Begin PyGame & Blad Steen Schaar. Stap per stap. |
 | [Galgje](./PyGame/Galgje/Info_en_Oefening.md) | Galgje stap per stap opdrachten gegeven. |
 | [TicTacToe - GUI Makkelijker](PyGame/TicTacToe_PyGame/3__StapVoorStap/Oplossingen/GUI_TTT.py) | TicTacToe met GUI met uitleg in de code. TODO stap per stap|
-| [TicTacToe - GUI Moeilijk](PyGame/TicTacToe_PyGame/3__StapVoorStap/Oplossingen/GUI_TTT_Moeilijk.py) | TicTacToe GUI, moeilijker door tekst|
+| [TicTacToe - GUI Moeilijk](PyGame/TicTacToe_PyGame/3__StapVoorStap/Oplossingen/GUI_TTT_Moeilijk.py) | TicTacToe GUI, moeilijker door tekst |
+| [4-Op-een-rij](PyGame/TicTacToe_PyGame/3__StapVoorStap/Oplossingen/GUI_TTT_Moeilijk.py) | 4-Op-Een-Rij. Stap voor stap, maar expres minder duidelijk uitgelegd |
+| [4-Op-een-rij - met MiniMax algoritme](https://github.com/KeithGalli/Connect4-Python/blob/master/connect4_with_ai.py) | 4-Op-Een-Rij met het Minimax-algoritme |
+
 
 ### Oplossingen
 De oplossingen zijn altijd te vinden in de map van de oefeningenreeks en dan "Oplossingen". Je leert het meeste als je zelf eerst vanalles probeert! En ja, dat kan soms lang(er) duren, maar het is het waard! 
