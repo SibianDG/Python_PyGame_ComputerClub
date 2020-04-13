@@ -1,0 +1,1 @@
+print(f"{input()} is {input()} jaar oud.")

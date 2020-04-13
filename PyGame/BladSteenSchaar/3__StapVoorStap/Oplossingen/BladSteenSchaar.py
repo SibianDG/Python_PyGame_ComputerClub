@@ -1,5 +1,6 @@
 import pygame
 import random
+import os
 
 
 def buildGUI():
@@ -17,7 +18,7 @@ def draw(win, resultaat):
 
     keuzeFoto = [win.blit(pygame.image.load('blad.png'), (25, 50)), win.blit(pygame.image.load('steen.png'), (225, 50)),
                  # toon op scherm blit(iets). Wat tonen? iets -> image
-                 win.blit(pygame.image.load('schaar.png'), (400, 50))]
+                 win.blit(pygame.image.load(os.getcwd()+'\schaar.png'), (400, 50))]
 
     gewonnen = resultaat[1]  # gewonnen, verloren, gelijk of nog beginnen
     keuzeComputer = resultaat[0]  # keuze computer
@@ -39,6 +40,7 @@ def draw(win, resultaat):
 
 
 def speelSpel(win):
+    print(os.getcwd())
     resultaat = ["", 3]  # om te beginnen
     run = True
     while run:  # pygame basic
