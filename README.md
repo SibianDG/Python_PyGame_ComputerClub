@@ -25,6 +25,7 @@ Python en PyGame leren met Computerclub
 | [TicTacToe - GUI Moeilijk](PyGame/TicTacToe_PyGame/3__StapVoorStap/Oplossingen/GUI_TTT_Moeilijk.py) | TicTacToe GUI, moeilijker door tekst |
 | [4-Op-een-rij](PyGame/TicTacToe_PyGame/3__StapVoorStap/Oplossingen/GUI_TTT_Moeilijk.py) | 4-Op-Een-Rij. Stap voor stap, maar expres minder duidelijk uitgelegd |
 | [4-Op-een-rij - met MiniMax algoritme](https://github.com/KeithGalli/Connect4-Python/blob/master/connect4_with_ai.py) | 4-Op-Een-Rij met het Minimax-algoritme |
+| [Sokoban](PyGame/Sokoban/Sokoban.py) | 4-Op-Een-Rij met het Minimax-algoritme |
 
 
 ### Oplossingen
