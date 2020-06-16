@@ -11,7 +11,7 @@ Python en PyGame leren met Computerclub
 | [04 - While. For What?](./Python_Basics/4__While_For_What/Info_en_opdrachten.md) |For & while lussen |
 | [05 - Strings 'n Arrays](./Python_Basics/5__Strings_Arrays/Info_en_opdrachten.md) | Strings & arrays |
 | [06 - Functies, functies en functies](./Python_Basics/6__Functies_Functies_Functies/Info_en_opdrachten.md) | Functies en testen |
-| [07 - Terug naar de Class](.) | Classes in Python. TODO |
+| [07 - Terug naar de Class](./Python_Basics/7__Classes/Info_en_opdrachten.md) | Classes in Python. TODO |
 | [Extra oefeningen](./Python_Basics/Extra_Oefeningen/CoderDojo) | Opgave op [Dodona](https://dodona.ugent.be/nl/courses/220/)  |
 
 
