@@ -1,11 +1,10 @@
 class Auto:
-    def __init__(self, merk, model, kleur, elektrisch, aantalDeuren=5):
+    def __init__(self, merk: str, model: str, kleur: str, elektrisch: bool, aantalDeuren=5):
         self.merk = merk
         self.model = model
         self.kleur = kleur
         self.elektrisch = elektrisch
         self.aantalDeuren = aantalDeuren
-        self.controleerOpElektrisch()
         self.controleerOpAantalDeuren()
 
     def zinvolleZin(self):
@@ -15,13 +14,10 @@ class Auto:
         print("Ik ben een", type(self).__name__.lower(), "van het merk", self.merk, "en model", self.model,
               "met als kleur", self.kleur, ". Ik heb een", motor, "motor met", self.aantalDeuren, "deuren.")
 
-    def controleerOpElektrisch(self):
-        if not isinstance(self.elektrisch, bool):
-            raise ValueError("Elektrisch moet een boolean zijn")
-
     def controleerOpAantalDeuren(self):
-        if not isinstance(self.aantalDeuren, int):
-            raise ValueError("Elektrisch moet een boolean zijn")
+        if not isinstance(self.aantalDeuren, int) or self.aantalDeuren < 1:
+            raise ValueError("Aantal deuren moet een int zijn.")
+
 
 tesla = Auto("Tesla", "Model 3", "wit", True)
 tesla.zinvolleZin()

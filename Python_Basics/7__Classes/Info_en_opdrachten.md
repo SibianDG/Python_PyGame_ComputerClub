@@ -36,10 +36,11 @@ Een mogelijke oplossing vind je [hier](./Oplossingen/Auto.py)
 
 ### Oefening 2
 - Neem de basis van oefening 1
+- Zorg ervoor dat merk, model en kleur strings zijn.
 - Voeg de volgende paramters toe: elektrisch (boolean) en aantal deuren (int)
 - Als het aantal deuren niet is meegegeven bij de constructor, dan zet je het aantal deuren automatisch op 5. 5 is dan de defaultwaarde of de standaardwaarde.
     - Zoek eens op het internet naar "Defaultvalue Python", want programmeren is ook veel online opzoeken.
-- Zorg ervoor dat de parameter `elektrisch` een boolean is en de parameter `aantalDeuren` van het type int is.
+- Zorg ervoor dat de `aantalDeuren` van het type int is én minstens 1 deur bevat.
     - Als dit niet het geval is, dan werp je een Exception op of een fout.
     - `raise TypeError("Parameter moet een boolean zijn.")`
 
