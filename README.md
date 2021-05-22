@@ -1,5 +1,5 @@
-# Python_PyGame_ComputerClub
-Python en PyGame leren met Computerclub
+# Python & PyGame
+Python en PyGame leren
 
 # Inhoudstabel Python
 
